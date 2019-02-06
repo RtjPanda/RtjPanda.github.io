@@ -1,1 +1,63 @@
-Yeet 
+body, html {
+  height: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.par1, .par2, .par3, .par4, .par5, .par6{
+  /* Full height */
+  min-height: 600px;
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.par1{
+  background-image: url("AirialViewCoast.jpeg");
+  }
+.par2{
+  background-image: url("MountainBoats.jpeg");
+}
+.par3{
+  background-image: url("Oceanside.jpeg");
+}
+.par4{
+  background-image: url("PineForest.jpeg");
+}
+.par5{
+  background-image: url("Volcano.jpg");
+}
+.par6{
+  background-image: url("Waterfall.jpeg");
+}
+
+.divider{
+  width: 100%;
+  height: 100px;
+  background-color: #00141F;
+  background-size: cover;
+}
+.divider h1{
+  text-align: center;
+  align-items: center;
+}
+
+.jumbotron{
+  height: 250px;
+  margin-bottom: 0;
+  
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/*@media only screen and (max-device-width: 1366px) {
+  .par1, .par2, .par3, .par4, .par5, .par6 {
+    background-attachment: scroll;
+  }
+}*/
